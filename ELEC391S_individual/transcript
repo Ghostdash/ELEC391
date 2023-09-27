@@ -1,0 +1,749 @@
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of clock_generator.v was successful.
+# Compile of part1.v was successful.
+# Compile of part2.v was successful.
+# Compile of part3.v was successful.
+# Compile of part2_tb.sv was successful.
+# Compile of part3_tb.sv was successful.
+# Compile of FIFO6.v was successful.
+# Compile of FIFO2.v was successful.
+# Compile of FIFO4.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf work.part3_tb
+# vsim -gui -L altera_mf work.part3_tb 
+# Start time: 18:21:12 on Sep 26,2023
+# Loading sv_std.std
+# Loading work.part3_tb
+# Loading work.part3
+# Loading work.fifo_filter_2
+# Loading work.FIFO2
+# Loading work.noise_generator
+# Loading work.fifo_filter_4
+# Loading work.FIFO4
+# Loading work.fifo_filter_6
+# Loading work.FIFO6
+# Loading work.clock_generator
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(136): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_divide_by.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(137): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_duty_cycle.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(138): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_multiply_by.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(139): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_phase_shift.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(140): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.compensate_clock.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(141): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.gate_lock_signal.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(142): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.inclk0_input_frequency.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(143): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(144): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.invalid_lock_multiplier.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(145): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(146): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(147): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.pll_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(148): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_activeclock.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(149): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_areset.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(150): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkbad0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(151): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkbad1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(152): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkloss.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(153): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkswitch.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(154): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_fbin.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(155): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_inclk0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(156): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_inclk1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(157): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_locked.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(158): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_pfdena.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(159): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_pllena.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(160): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanaclr.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(161): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanclk.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(162): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scandata.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(163): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scandataout.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(164): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scandone.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(165): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanread.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(166): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanwrite.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(167): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(168): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(169): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(170): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(171): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk4.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(172): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk5.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(173): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(174): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(175): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(176): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(177): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena4.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(178): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena5.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(179): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_enable0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(180): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_enable1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(181): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(182): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(183): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(184): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(185): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(186): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(187): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(188): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(189): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_sclkout0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(190): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_sclkout1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(191): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.valid_lock_multiplier.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# Error loading design
+# End time: 18:21:13 on Sep 26,2023, Elapsed time: 0:00:01
+# Errors: 168, Warnings: 0
+vsim -gui -L altera_mf -L altera_mf_ver work.part3_tb
+# vsim -gui -L altera_mf -L altera_mf_ver work.part3_tb 
+# Start time: 18:22:19 on Sep 26,2023
+# Loading sv_std.std
+# Loading work.part3_tb
+# Loading work.part3
+# Loading work.fifo_filter_2
+# Loading work.FIFO2
+# Loading work.noise_generator
+# Loading work.fifo_filter_4
+# Loading work.FIFO4
+# Loading work.fifo_filter_6
+# Loading work.FIFO6
+# Loading work.clock_generator
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt2/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt4/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataleft File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(87): Unresolved defparam reference to 'scfifo_component' in scfifo_component.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(88): Unresolved defparam reference to 'scfifo_component' in scfifo_component.almost_full_value.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(89): Unresolved defparam reference to 'scfifo_component' in scfifo_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(90): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(91): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(92): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(93): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(94): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(95): Unresolved defparam reference to 'scfifo_component' in scfifo_component.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(96): Unresolved defparam reference to 'scfifo_component' in scfifo_component.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(97): Unresolved defparam reference to 'scfifo_component' in scfifo_component.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v(98): Unresolved defparam reference to 'scfifo_component' in scfifo_component.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/filt6/dataright File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(136): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_divide_by.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(137): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_duty_cycle.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(138): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_multiply_by.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(139): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.clk0_phase_shift.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(140): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.compensate_clock.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(141): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.gate_lock_signal.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(142): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.inclk0_input_frequency.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(143): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(144): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.invalid_lock_multiplier.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(145): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(146): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(147): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.pll_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(148): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_activeclock.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(149): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_areset.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(150): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkbad0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(151): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkbad1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(152): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkloss.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(153): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkswitch.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(154): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_fbin.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(155): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_inclk0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(156): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_inclk1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(157): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_locked.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(158): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_pfdena.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(159): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_pllena.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(160): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanaclr.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(161): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanclk.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(162): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scandata.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(163): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scandataout.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(164): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scandone.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(165): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanread.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(166): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_scanwrite.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(167): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(168): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(169): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(170): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(171): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk4.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(172): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clk5.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(173): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(174): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(175): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(176): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(177): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena4.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(178): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_clkena5.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(179): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_enable0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(180): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_enable1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(181): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(182): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(183): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(184): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclk3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(185): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(186): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(187): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena2.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(188): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_extclkena3.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(189): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_sclkout0.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(190): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.port_sclkout1.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v(191): Unresolved defparam reference to 'DE_Clock_Generator_Audio' in DE_Clock_Generator_Audio.valid_lock_multiplier.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/my_clock_gen File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(155): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.add_ram_output_register.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(156): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(157): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_numwords.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(158): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_showahead.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(159): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(160): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_width.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(161): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.lpm_widthu.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(162): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.overflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(163): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.underflow_checking.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# ** Error (suppressible): (vsim-10000) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v(164): Unresolved defparam reference to 'Sync_FIFO' in Sync_FIFO.use_eab.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb/dut/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+# Error loading design
+# End time: 18:22:20 on Sep 26,2023, Elapsed time: 0:00:01
+# Errors: 168, Warnings: 0
+project open C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator

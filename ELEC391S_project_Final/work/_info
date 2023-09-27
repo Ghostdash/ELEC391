@@ -1,0 +1,512 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project
+vchannel_connect
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1695778801
+!i10b 1
+!s100 QKSO8=1aYVzf6gWmnc9Vd3
+Io;NDbzNF1J8b?BDEgAU<o1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 Channel_Connection_sv_unit
+S1
+Z4 dC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final
+Z5 w1687435560
+Z6 8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Channel_Connection.sv
+Z7 FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Channel_Connection.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1695778801.000000
+Z10 !s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Channel_Connection.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Channel_Connection.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vchannel_connect_tb
+R0
+R1
+!i10b 1
+!s100 YDJFjPzFzcLl:NG0BRF=[3
+IF_cR;NPa=TC_K?:G1U]P83
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 63
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vclock_sync_fast_to_slow
+Z14 !s110 1695778800
+!i10b 1
+!s100 :RA>ICFbJPLC82e`nMOPB2
+IoLmO[6C=f3]A_m6dA4G:N0
+R2
+R4
+w1687224558
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_fast_to_slow.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_fast_to_slow.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z15 !s108 1695778800.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_fast_to_slow.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_fast_to_slow.v|
+!i113 1
+Z16 o-work work
+R13
+vclock_sync_slow_to_fast
+R14
+!i10b 1
+!s100 LXQ5PJchcRgRYLoFlGUee1
+IRnWR^FCJZ=KhEo2hI[3Ek1
+R2
+R4
+w1687137470
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_slow_to_fast.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_slow_to_fast.v
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_slow_to_fast.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_sync_slow_to_fast.v|
+!i113 1
+R16
+R13
+vClockChanger
+R0
+R14
+!i10b 1
+!s100 `=S3<kncl6K0WWQUMh^@O1
+IY:NAdmdaUN10jXl_C8z<z2
+R2
+!s105 clock_changer_sv_unit
+S1
+R4
+w1687431348
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_changer.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_changer.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_changer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/clock_changer.sv|
+!i113 1
+R12
+R13
+n@clock@changer
+vfifo
+R1
+!i10b 1
+!s100 jV;7a1jKaMYzzGk3iGoL;2
+I8?j0bFKQ2fXE@II8oo1Me1
+R2
+R4
+w1687420318
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v
+L0 40
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v|
+!i113 1
+R16
+R13
+vHamming_decoder
+R0
+R14
+!i10b 1
+!s100 2=o34i;U<0Ooc^83Zeg_d3
+IUPz7foPMLDdA4mCih8S:S0
+R2
+!s105 Hamming_decoder_sv_unit
+S1
+R4
+w1687436043
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_decoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_decoder.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_decoder.sv|
+!i113 1
+R12
+R13
+n@hamming_decoder
+vHamming_encoder
+R0
+R14
+!i10b 1
+!s100 IfJHc[V83OM08TB`X]_aB3
+IKE?Mk7^e4nblZj0AGo1@30
+R2
+!s105 Hamming_encoder_sv_unit
+S1
+R4
+w1687563252
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_encoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_encoder.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_encoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/Hamming_encoder.sv|
+!i113 1
+R12
+R13
+n@hamming_encoder
+vLFSR
+R0
+R14
+!i10b 1
+!s100 PlGQBMP6lg3EOBNjXGHK03
+IB6DPT67chZlj27;DZGiZ22
+R2
+Z17 !s105 LFSR_sv_unit
+S1
+R4
+w1687576164
+Z18 8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/LFSR.sv
+Z19 FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/LFSR.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+Z20 !s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/LFSR.sv|
+Z21 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/LFSR.sv|
+!i113 1
+R12
+R13
+n@l@f@s@r
+vLFSR8bit
+R0
+!s110 1687468566
+!i10b 1
+!s100 DSQ]@Ym2Jc[e4WJ9VXXK]3
+IeXJ2>?m0PmS6`f7hLi6F=0
+R2
+R17
+S1
+R4
+w1687137449
+R18
+R19
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1687468566.000000
+R20
+R21
+!i113 1
+R12
+R13
+n@l@f@s@r8bit
+vmemory
+R0
+R14
+!i10b 1
+!s100 b6ZM8QD5dJG=8>IP18QC82
+IEieXS:92P9Sek2mG3=7jY0
+R2
+!s105 memory_sv_unit
+S1
+R4
+w1687403274
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/memory.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/memory.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/memory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/memory.sv|
+!i113 1
+R12
+R13
+vQPSK_Complex
+R0
+R14
+!i10b 1
+!s100 RHDFTS4QAGiM_S_Y2IaNb2
+I;a]CUX`Xj1JFnYzz?<=a_0
+R2
+!s105 QPSK_Complex_sv_unit
+S1
+R4
+w1687436595
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex.sv|
+!i113 1
+R12
+R13
+n@q@p@s@k_@complex
+vQPSK_Complex_Demod
+R0
+R14
+!i10b 1
+!s100 oAkE:FbgcV>Q7mniKBRH33
+I`k8K:HN]f;hP8kb<^:=Un3
+R2
+!s105 QPSK_Complex_Demod_sv_unit
+S1
+R4
+w1687436968
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex_Demod.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex_Demod.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex_Demod.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/QPSK_Complex_Demod.sv|
+!i113 1
+R12
+R13
+n@q@p@s@k_@complex_@demod
+vraised_receiver
+R0
+R14
+!i10b 1
+!s100 R7=A2N0a39AZ[bN7hiHja1
+Iklj3m[WP^RzC=G3@^FQY<1
+R2
+!s105 raised_receiver_sv_unit
+S1
+R4
+w1687437256
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_receiver.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_receiver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_receiver.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_receiver.sv|
+!i113 1
+R12
+R13
+vraised_transmitter
+R0
+R14
+!i10b 1
+!s100 _Q1PD92:0<MkdiVfi];@_2
+IH5[XQG3Uc0C3EzaobbVPe2
+R2
+!s105 raised_transmitter_sv_unit
+S1
+R4
+w1687437334
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_transmitter.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_transmitter.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_transmitter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_transmitter.sv|
+!i113 1
+R12
+R13
+vsystem
+R0
+R1
+!i10b 1
+!s100 ?@TzQzACGRQT>DGAQ8E930
+IPS21>gbOcKOaHIAYFH?`o0
+R2
+!s105 system_sv_unit
+S1
+R4
+w1687436078
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/system.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/system.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/system.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/system.sv|
+!i113 1
+R12
+R13
+vtb_encodingmodule
+R0
+R1
+!i10b 1
+!s100 FISQ45aHJRHK_`_oC=19E3
+I8ZPH:7Ph[7nzBaX<BDc0G2
+R2
+!s105 tb_encodingmodule_sv_unit
+S1
+R4
+w1687410480
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_encodingmodule.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_encodingmodule.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_encodingmodule.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_encodingmodule.sv|
+!i113 1
+R12
+R13
+vtb_modulator
+R0
+R1
+!i10b 1
+!s100 okaBkWX5FmUK^1Dn=n7aN3
+IF7ZK3GD=Q:YhfZ7NQX8bH3
+R2
+!s105 tb_modulator_sv_unit
+S1
+R4
+w1687416595
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_modulator.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_modulator.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_modulator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_modulator.sv|
+!i113 1
+R12
+R13
+vtb_raised_filter
+R0
+!s110 1687442110
+!i10b 1
+!s100 [;ZeAK?8BUFcQ[a>zY?bK3
+I0M20zH:<L3;GSA7Dc=VoW0
+R2
+!s105 tb_raised_filter_sv_unit
+S1
+R4
+w1687441628
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_raised_filter.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_raised_filter.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1687442110.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_raised_filter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_raised_filter.sv|
+!i113 1
+R12
+R13
+vtb_system
+R0
+R14
+!i10b 1
+!s100 ER@`g`LU07hJE]`1n6Fb40
+IdE[Ncl5g`<=LjaKP4=@[23
+R2
+!s105 tb_system_sv_unit
+S1
+R4
+w1687426978
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_system.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_system.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_system.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/tb_system.sv|
+!i113 1
+R12
+R13
+vtop
+R0
+R1
+!i10b 1
+!s100 Zl?7YdVdL:igKGMTaol=70
+IAAIbe`H2nTfGWMG75<ddV3
+R2
+!s105 top_sv_unit
+S1
+R4
+w1687433943
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/top.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/top.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/top.sv|
+!i113 1
+R12
+R13

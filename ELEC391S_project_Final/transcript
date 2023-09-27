@@ -1,0 +1,56 @@
+# Compile of clock_sync_slow_to_fast.v was successful.
+# Compile of Hamming_decoder.sv was successful.
+# Compile of Hamming_encoder.sv was successful.
+# Compile of QPSK_Complex.sv was successful.
+# Compile of QPSK_Complex_Demod.sv was successful.
+# Compile of raised_receiver.sv was successful.
+# Compile of raised_transmitter.sv was successful.
+# Compile of tb_test.sv was successful.
+# Compile of clock_changer.sv was successful.
+# Compile of clock_sync_fast_to_slow.v was successful.
+# Compile of tb_system.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of memory.sv was successful.
+# Compile of fifo.v was successful.
+# Compile of Channel_Connection.sv was successful.
+# Compile of tb_modulator.sv was successful.
+# Compile of tb_encodingmodule.sv was successful.
+# Compile of system.sv was successful.
+# Compile of top.sv was successful.
+# 19 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_system
+# vsim -gui work.tb_system 
+# Start time: 18:40:35 on Sep 26,2023
+# Loading sv_std.std
+# Loading work.tb_system
+# Loading work.Hamming_encoder
+# Loading work.QPSK_Complex
+# Loading work.raised_transmitter
+# Loading work.channel_connect
+# Loading work.ClockChanger
+# Loading work.LFSR8bit
+# Loading work.fifo
+# ** Error: (vsim-3033) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v(66): Instantiation of 'dcfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_system/AWGNreal/fifo1 File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v
+#         Searched libraries:
+#             C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/work
+# ** Error: (vsim-3033) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v(66): Instantiation of 'dcfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_system/AWGNreal/fifo2 File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v
+#         Searched libraries:
+#             C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/work
+# ** Error: (vsim-3033) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v(66): Instantiation of 'dcfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_system/AWGNimag/fifo1 File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v
+#         Searched libraries:
+#             C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/work
+# ** Error: (vsim-3033) C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v(66): Instantiation of 'dcfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_system/AWGNimag/fifo2 File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/fifo.v
+#         Searched libraries:
+#             C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/work
+# Loading work.raised_receiver
+# Loading work.QPSK_Complex_Demod
+# Loading work.Hamming_decoder
+# Error loading design
+# End time: 18:40:35 on Sep 26,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+project open C:/Users/weiyang/OneDrive/Desktop/ELEC402/assignment1/elevator

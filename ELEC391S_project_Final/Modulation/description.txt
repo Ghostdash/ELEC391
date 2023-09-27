@@ -1,0 +1,1 @@
+This module convert the input encoded data into single bit of real and complex number output to the transmitter. It uses the QPSK method fo mapping the bits to the vectors in the cartesian planes, with the variation of the real and imaginary bit representing the four different quadrants.

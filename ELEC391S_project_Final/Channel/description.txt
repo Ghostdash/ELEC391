@@ -1,0 +1,1 @@
+This module implement the gilbert channel which introduce an awgn noise channel clocked with 1MHz frequency. The module utilize LSFR to generate psuedo random bit sequence which is used for adding noise to the input data.

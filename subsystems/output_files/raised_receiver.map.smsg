@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at raised_receiver.sv(2): object "reset" differs only in case from object "RESET" in the same scope File: C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project_Final/raised_receiver.sv Line: 2

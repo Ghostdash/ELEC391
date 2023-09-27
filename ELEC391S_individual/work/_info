@@ -1,0 +1,640 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vaccum
+Z0 !s110 1695777653
+!i10b 1
+!s100 YhUa4MM9J?LZYY[_I5Z5e0
+ICXI=l2Q5@mN7;]MbNLkI72
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual
+Z3 w1685036931
+Z4 8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3.v
+Z5 FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3.v
+L0 131
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1695777653.000000
+Z8 !s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vAltera_UP_Audio_Bit_Counter
+Z12 !s110 1695777652
+!i10b 1
+!s100 J2Tb5SPZN>>^6S@MM9o:c1
+IcYi@]kKTSBZF5gOUT8L@H3
+R1
+R2
+Z13 w1684553735
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Bit_Counter.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Bit_Counter.v
+Z14 L0 49
+R6
+r1
+!s85 0
+31
+Z15 !s108 1695777652.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Bit_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Bit_Counter.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@audio_@bit_@counter
+vAltera_UP_Audio_In_Deserializer
+R12
+!i10b 1
+!s100 MnK8@IQLcda;1gGBW7@Tz0
+IAnb@`bESZ=e:;UK6WM3[00
+R1
+R2
+R13
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_In_Deserializer.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_In_Deserializer.v
+Z16 L0 47
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_In_Deserializer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_In_Deserializer.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@audio_@in_@deserializer
+vAltera_UP_Audio_Out_Serializer
+R12
+!i10b 1
+!s100 BllhdjOFFm6Rj]o@Xid882
+I[@4QHX3<J6X1SLo]7?:9F0
+R1
+R2
+R13
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Out_Serializer.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Out_Serializer.v
+R16
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Out_Serializer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Audio_Out_Serializer.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@audio_@out_@serializer
+vAltera_UP_Clock_Edge
+R12
+!i10b 1
+!s100 XaX6^HY04T3X?D32?HdN>2
+I8dQR8nMVJ?bJf9_KlDgoL2
+R1
+R2
+Z17 w1684553736
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Clock_Edge.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Clock_Edge.v
+Z18 L0 48
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Clock_Edge.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Clock_Edge.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@clock_@edge
+vAltera_UP_I2C
+R12
+!i10b 1
+!s100 JU94J3RToJ0DChmlIi^B43
+I@LllL?NRJdkND5DiG12Gb0
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C.v
+R18
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@i2@c
+vAltera_UP_I2C_AV_Auto_Initialize
+R12
+!i10b 1
+!s100 TbIA;9787GSRoV9be_N2^2
+InjYDgR86Q`B5hT_>[kR3H0
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_AV_Auto_Initialize.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_AV_Auto_Initialize.v
+R18
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_AV_Auto_Initialize.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_AV_Auto_Initialize.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@i2@c_@a@v_@auto_@initialize
+vAltera_UP_I2C_DC_Auto_Initialize
+R12
+!i10b 1
+!s100 WaG<YW8VGFlT:ijQ;9gO?3
+IH>zWB1gGemKR<>bU>5Z<=2
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_DC_Auto_Initialize.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_DC_Auto_Initialize.v
+R18
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_DC_Auto_Initialize.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_DC_Auto_Initialize.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@i2@c_@d@c_@auto_@initialize
+vAltera_UP_I2C_LCM_Auto_Initialize
+R12
+!i10b 1
+!s100 Jn038;8oQ^Ukg7ZXlQdT33
+ILeG^zDz>[]X]kDLHN1D1h2
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_LCM_Auto_Initialize.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_LCM_Auto_Initialize.v
+R18
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_LCM_Auto_Initialize.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_I2C_LCM_Auto_Initialize.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@i2@c_@l@c@m_@auto_@initialize
+vAltera_UP_Slow_Clock_Generator
+R12
+!i10b 1
+!s100 U@B3NehPQRXcdeI<e=@I53
+I5V^D3Q=aDfKc5UZJ9Hk?j1
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Slow_Clock_Generator.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Slow_Clock_Generator.v
+L0 53
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Slow_Clock_Generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_Slow_Clock_Generator.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@slow_@clock_@generator
+vAltera_UP_SYNC_FIFO
+R12
+!i10b 1
+!s100 c@b_FJA`?z[Smglk6_A6L1
+I^VR>lmjAUD=R9MA;nE[i93
+R1
+R2
+w1684969322
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v
+R16
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/Altera_UP_SYNC_FIFO.v|
+!i113 1
+R10
+R11
+n@altera_@u@p_@s@y@n@c_@f@i@f@o
+vaudio_and_video_config
+R12
+!i10b 1
+!s100 z3>_mDg4hMjn4VjXHn00U3
+II>jX650d9fIczRNE>33[[2
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_and_video_config.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_and_video_config.v
+R14
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_and_video_config.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_and_video_config.v|
+!i113 1
+R10
+R11
+vaudio_codec
+R12
+!i10b 1
+!s100 43h1ad@K@aG98IRVc4i1M1
+IAbzk5DG[D^C;g85T>GZDB0
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_codec.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_codec.v
+R14
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_codec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/audio_codec.v|
+!i113 1
+R10
+R11
+vclock_generator
+R12
+!i10b 1
+!s100 39OA<gKn`aijkLgT:8]8i2
+I@Reoobbo>cEY1QLc:UfG52
+R1
+R2
+R17
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v
+R18
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/clock_generator.v|
+!i113 1
+R10
+R11
+vFIFO
+!s110 1685014220
+!i10b 1
+!s100 Bb><eLbkPaED3Az:b?NQB3
+ISRAd`PA7:5:4hX4Mae5R10
+R1
+R2
+w1685010699
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO.v
+Z19 L0 40
+R6
+r1
+!s85 0
+31
+!s108 1685014220.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO.v|
+!i113 1
+R10
+R11
+n@f@i@f@o
+vFIFO2
+R0
+!i10b 1
+!s100 kRlP9E;;iz]4Pb;T:`PUd3
+I9:3;e7kcWbjFMPOh<BOTH3
+R1
+R2
+w1685014200
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v
+R19
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO2.v|
+!i113 1
+R10
+R11
+n@f@i@f@o2
+vFIFO4
+R0
+!i10b 1
+!s100 VM_z5]7`d>B?0XhD>:4]^1
+IDU2IohTnQ`[DX9Y[_UW4W3
+R1
+R2
+w1685014316
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v
+R19
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO4.v|
+!i113 1
+R10
+R11
+n@f@i@f@o4
+vFIFO6
+R0
+!i10b 1
+!s100 XhI341F<[5WKlf<6nL?F43
+Ig_nWZAk>HclVURoHO4[aT3
+R1
+R2
+w1685014518
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v
+R19
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/FIFO6.v|
+!i113 1
+R10
+R11
+n@f@i@f@o6
+vfifo_filter_2
+R0
+!i10b 1
+!s100 aIF6<IJnc]b5CQCa;53[B0
+I@B8;[ezTMDf9oFhG6abR30
+R1
+R2
+R3
+R4
+R5
+L0 146
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfifo_filter_4
+R0
+!i10b 1
+!s100 3c:@E>KP14;XhOI9Z=3hP0
+I=hFEZB<JB5<fAa4>e^<de1
+R1
+R2
+R3
+R4
+R5
+L0 208
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfifo_filter_6
+R0
+!i10b 1
+!s100 QJ6Bo831mnXiA2KE^mKN[0
+I<_<X]kYTmDaZa^h1jS<fK2
+R1
+R2
+R3
+R4
+R5
+L0 270
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfilter
+R0
+!i10b 1
+!s100 0e;OTbbkc6XdLA4=j4KZ?2
+IAodea5A@E>RQJE180@3Wj1
+R1
+R2
+Z20 w1685019483
+Z21 8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2.v
+Z22 FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2.v
+L0 148
+R6
+r1
+!s85 0
+31
+R15
+Z23 !s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2.v|
+!i113 1
+R10
+R11
+vnoise_generator
+R0
+!i10b 1
+!s100 l3biEj@_I2SQ_3ZU2=[`73
+I^YMdZG2O16<n0Tf39ZMX>1
+R1
+R2
+R3
+R4
+R5
+Z25 L0 118
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpart1
+R12
+!i10b 1
+!s100 2c0H1^nB7zm4QIWj7=H?C3
+Ij=oaal`ePb:<8:Ren3gQ;1
+R1
+R2
+w1684986233
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part1.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part1.v|
+!i113 1
+R10
+R11
+vpart2
+R0
+!i10b 1
+!s100 R5[_D1TSWn6YlMGa2Gbcd2
+I^gf5<^Z_<G<9GEPZL^SdT0
+R1
+R2
+R20
+R21
+R22
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+R23
+R24
+!i113 1
+R10
+R11
+vpart2_tb
+Z26 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+!i10b 1
+!s100 YTTVHVkY2:YoQIAm^EdeB3
+IPmHXEmSW?Yn4@6L:>UAzg2
+R1
+!s105 part2_tb_sv_unit
+S1
+R2
+w1685034967
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2_tb.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2_tb.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part2_tb.sv|
+!i113 1
+Z27 o-work work -sv
+R11
+vpart3
+R0
+!i10b 1
+!s100 ;GehfQ[n>1^NoKfK_4;7?1
+I?z0jJIChXzdoKSC9YeBKB0
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpart3_tb
+R26
+R0
+!i10b 1
+!s100 RAf^0[K:3lj8_2bV0O@Qb0
+Ibcz>421:0HY78>;DF0jb30
+R1
+!s105 part3_tb_sv_unit
+S1
+R2
+w1685014550
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3_tb.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3_tb.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual/part3_tb.sv|
+!i113 1
+R27
+R11
+vvDFFE
+R0
+!i10b 1
+!s100 RHIRd:iWVS<Yz=Xi<>9[P0
+IPih[Eg<=jN9CENGI`EcEa0
+R1
+R2
+R20
+R21
+R22
+R25
+R6
+r1
+!s85 0
+31
+R15
+R23
+R24
+!i113 1
+R10
+R11
+nv@d@f@f@e

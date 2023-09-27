@@ -1,0 +1,74 @@
+# Compile of tb_encoder.sv was successful.
+# Compile of BCH_encoder.sv was successful.
+# Compile of QAM16s.v was successful.
+# Compile of tb_Hamming_encoder.sv was successful with warnings.
+# Compile of Hamming_encoder.sv was successful.
+# Compile of tb_Hamming_decoder.sv was successful.
+# Compile of Hamming_decoder.sv was successful.
+# Compile of tb_encodingmodule.sv was successful.
+# Compile of QPSK_demod.sv was successful.
+# Compile of QPSK_mod.sv was successful.
+# Compile of QPSK_modulator.sv was successful.
+# Compile of Sine_Plus_Noise.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of clock_changer.sv was successful.
+# Compile of clock_sync_slow_to_fast.v was successful.
+# Compile of Modulation_Transmitter_Channel_Test.sv was successful.
+# Compile of clock_sync_fast_to_slow.v was successful.
+# Compile of tb_cosine_filter.sv was successful.
+# Compile of raised_receiver.sv was successful.
+# Compile of raised_transmitter.sv failed with 4 errors.
+# 20 compiles, 1 failed with 4 errors.
+# Compile of tb_encoder.sv was successful.
+# Compile of BCH_encoder.sv was successful.
+# Compile of QAM16s.v was successful.
+# Compile of tb_Hamming_encoder.sv was successful with warnings.
+# Compile of Hamming_encoder.sv was successful.
+# Compile of tb_Hamming_decoder.sv was successful.
+# Compile of Hamming_decoder.sv was successful.
+# Compile of tb_encodingmodule.sv was successful.
+# Compile of QPSK_demod.sv was successful.
+# Compile of QPSK_mod.sv was successful.
+# Compile of QPSK_modulator.sv was successful.
+# Compile of Sine_Plus_Noise.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of clock_changer.sv was successful.
+# Compile of clock_sync_slow_to_fast.v was successful.
+# Compile of Modulation_Transmitter_Channel_Test.sv was successful.
+# Compile of clock_sync_fast_to_slow.v was successful.
+# Compile of tb_cosine_filter.sv was successful.
+# Compile of raised_receiver.sv was successful.
+# Compile of raised_transmitter.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.tb_cosine_filter
+# vsim -gui work.tb_cosine_filter 
+# Start time: 06:57:22 on Jun 22,2023
+# Loading sv_std.std
+# Loading work.tb_cosine_filter
+# Loading work.Hamming_encoder
+# Loading work.raised_transmitter
+# Loading work.raised_receiver
+# Loading work.Hamming_decoder
+add wave -position insertpoint  \
+sim:/tb_cosine_filter/indata
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: weiyang  Hostname: WINDELL-F9QMU15  ProcessID: 17684
+#           Attempting to use alternate WLF file "./wlftrrkkmf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrrkkmf
+add wave -position insertpoint  \
+sim:/tb_cosine_filter/outdata
+add wave -position insertpoint  \
+sim:/tb_cosine_filter/transmitter/state
+add wave -position insertpoint  \
+sim:/tb_cosine_filter/receiver/state
+add wave -position insertpoint  \
+sim:/tb_cosine_filter/receiver/buffer
+run -all
+# The transmitted data is     0, the input data is 12345
+# The transmitted data is     0, the input data is 10101
+# ** Note: $stop    : C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_cosine_filter.sv(44)
+#    Time: 1084 ps  Iteration: 0  Instance: /tb_cosine_filter
+# Break in Module tb_cosine_filter at C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_cosine_filter.sv line 44
+# End time: 07:17:43 on Jun 22,2023, Elapsed time: 0:20:21
+# Errors: 0, Warnings: 2

@@ -1,0 +1,1 @@
+This module included all of our custom module such as encoder, transmitter, channel, modulator, etc. The purpose of this module is to better organize the modules for use in the top file, as well as visuallizing the dataflow given a input.

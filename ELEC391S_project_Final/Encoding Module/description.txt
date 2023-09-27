@@ -1,0 +1,1 @@
+These two modules uses (16,21,5) hamming encoder and decoder implementation. For an input data of 16bits, 5 parity bits is added to the information to make it more resilient to error. The hamming decoder also correct 1 bit error using the 5 parity bits added by the encoder.

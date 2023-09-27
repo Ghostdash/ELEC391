@@ -1,0 +1,662 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_individual
+vBCH_encoder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1687442220
+!i10b 1
+!s100 ]JIR26PjWz8Qb:Ef9[Oe>0
+IhO7g`N`i62H3U29YdM[VC2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 BCH_encoder_sv_unit
+S1
+Z3 dC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project
+w1686761729
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/BCH_encoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/BCH_encoder.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1687442220.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/BCH_encoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/BCH_encoder.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@b@c@h_encoder
+vclock_sync_fast_to_slow
+Z8 !s110 1687442221
+!i10b 1
+!s100 :RA>ICFbJPLC82e`nMOPB2
+IYcEJRhoDmiREBMBcS@X;A1
+R2
+R3
+w1687224558
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_fast_to_slow.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_fast_to_slow.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1687442221.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_fast_to_slow.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_fast_to_slow.v|
+!i113 1
+Z10 o-work work
+R7
+vclock_sync_slow_to_fast
+R1
+!i10b 1
+!s100 LXQ5PJchcRgRYLoFlGUee1
+I0>W_jC]^L6CDfBEzVE8OE2
+R2
+R3
+w1687137470
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_slow_to_fast.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_slow_to_fast.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_slow_to_fast.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_sync_slow_to_fast.v|
+!i113 1
+R10
+R7
+vClockChanger
+R0
+R1
+!i10b 1
+!s100 e^VNMI24K0WJaAY`ZZFeF3
+I72hEcWSD?4^A6K2d4mHJT2
+R2
+!s105 clock_changer_sv_unit
+S1
+R3
+w1687376888
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_changer.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_changer.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_changer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/clock_changer.sv|
+!i113 1
+R6
+R7
+n@clock@changer
+vHamming_decoder
+R0
+R1
+!i10b 1
+!s100 O]U^LbB41EELB[V>7^Dm13
+IZRcl[MCPWmZc3S?gFh;Cm3
+R2
+!s105 Hamming_decoder_sv_unit
+S1
+R3
+w1687373270
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_decoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_decoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_decoder.sv|
+!i113 1
+R6
+R7
+n@hamming_decoder
+vHamming_encoder
+R0
+R1
+!i10b 1
+!s100 IfJHc[V83OM08TB`X]_aB3
+IooQz3o>QKc>OnzBf2^R=L1
+R2
+!s105 Hamming_encoder_sv_unit
+S1
+R3
+w1687128087
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_encoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_encoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_encoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Hamming_encoder.sv|
+!i113 1
+R6
+R7
+n@hamming_encoder
+vLFSR8bit
+R0
+R1
+!i10b 1
+!s100 DSQ]@Ym2Jc[e4WJ9VXXK]3
+In3ZX[iRQZB57O4ARF`GZb0
+R2
+!s105 LFSR_sv_unit
+S1
+R3
+w1687137449
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/LFSR.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/LFSR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/LFSR.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/LFSR.sv|
+!i113 1
+R6
+R7
+n@l@f@s@r8bit
+vlookup135
+R0
+R1
+!i10b 1
+!s100 Al:3Ta^H;C1F5=WKM^llS1
+I;NX7DDFS1GmkY:<00?lBj1
+R2
+Z11 !s105 QPSK_mod_sv_unit
+S1
+R3
+Z12 w1687214586
+Z13 8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_mod.sv
+Z14 FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_mod.sv
+L0 122
+R4
+r1
+!s85 0
+31
+R5
+Z15 !s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_mod.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_mod.sv|
+!i113 1
+R6
+R7
+vlookup225
+R0
+R1
+!i10b 1
+!s100 JmnF?i@^0S>NJQaY@_zX83
+ITGeKaFDf=K4kmNhTK][Sl3
+R2
+R11
+S1
+R3
+R12
+R13
+R14
+L0 173
+R4
+r1
+!s85 0
+31
+R5
+R15
+R16
+!i113 1
+R6
+R7
+vlookup315
+R0
+R1
+!i10b 1
+!s100 cU8EzjFRZTSzG3ML9;b_Q2
+I1BaYJe<_LWmihb9?LXHBR3
+R2
+R11
+S1
+R3
+R12
+R13
+R14
+L0 224
+R4
+r1
+!s85 0
+31
+R5
+R15
+R16
+!i113 1
+R6
+R7
+vlookup45
+R0
+R1
+!i10b 1
+!s100 gL[5MN0S]0IfelY=70c`S0
+IZ0U<d<YREl^Uh>GE4P:0i2
+R2
+R11
+S1
+R3
+R12
+R13
+R14
+L0 71
+R4
+r1
+!s85 0
+31
+R5
+R15
+R16
+!i113 1
+R6
+R7
+vmodulation_tb
+R0
+R8
+!i10b 1
+!s100 Pol[TQ5MROK@kIGDh>07M2
+I1]eSjf<nz5`CI9bfDIRVn1
+R2
+Z17 !s105 Modulation_Transmitter_Channel_Test_sv_unit
+S1
+R3
+Z18 w1687230867
+Z19 8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Modulation_Transmitter_Channel_Test.sv
+Z20 FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Modulation_Transmitter_Channel_Test.sv
+L0 51
+R4
+r1
+!s85 0
+31
+R9
+Z21 !s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Modulation_Transmitter_Channel_Test.sv|
+Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Modulation_Transmitter_Channel_Test.sv|
+!i113 1
+R6
+R7
+vmodulation_test
+R0
+R8
+!i10b 1
+!s100 :[HOeJF6clhA4A_Lm53kl1
+IkZ]RiYCPCz=;Xa0PJfYkC1
+R2
+R17
+S1
+R3
+R18
+R19
+R20
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+R21
+R22
+!i113 1
+R6
+R7
+vQAM16
+R1
+!i10b 1
+!s100 3[A4<R>hE7Q6L=j7BN9Sl3
+IVZ4QWY7QTZFPLD9F^`cIS0
+R2
+R3
+w1686718820
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QAM16s.v
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QAM16s.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QAM16s.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QAM16s.v|
+!i113 1
+R10
+R7
+n@q@a@m16
+vQPSK_demod
+R0
+R1
+!i10b 1
+!s100 K_ek<mSlDC7^GK_I3H7f80
+I_JzkgL[1ZJhi39O7;U=1`0
+R2
+!s105 QPSK_demod_sv_unit
+S1
+R3
+w1687135574
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_demod.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_demod.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_demod.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_demod.sv|
+!i113 1
+R6
+R7
+n@q@p@s@k_demod
+vQPSK_mod
+R0
+R1
+!i10b 1
+!s100 kWWf`LWHBzNJ7fbVVnZUX3
+ImfmeF;LZhjRAG^6ZDz?VD3
+R2
+R11
+S1
+R3
+R12
+R13
+R14
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R15
+R16
+!i113 1
+R6
+R7
+n@q@p@s@k_mod
+vQPSK_modulator
+R0
+R1
+!i10b 1
+!s100 I:_1gWEB<j@m8a;OEU]W;1
+IFnfdL:[Y;K[jSg5aVo5Sd1
+R2
+!s105 QPSK_modulator_sv_unit
+S1
+R3
+w1687295529
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_modulator.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_modulator.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_modulator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/QPSK_modulator.sv|
+!i113 1
+R6
+R7
+n@q@p@s@k_modulator
+vraised_receiver
+R0
+R8
+!i10b 1
+!s100 BAXDP31@?IDRUebI_iUzf2
+I6L:3maLG>JoS@30LkYD4g1
+R2
+!s105 raised_receiver_sv_unit
+S1
+R3
+w1687373103
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_receiver.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_receiver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_receiver.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_receiver.sv|
+!i113 1
+R6
+R7
+vraised_transmitter
+R0
+R8
+!i10b 1
+!s100 SVOASW`0bbJ;e3J=R4NTQ3
+I8cB<E0Fm4U66kmTbK:UH:0
+R2
+!s105 raised_transmitter_sv_unit
+S1
+R3
+w1687442211
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_transmitter.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_transmitter.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_transmitter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/raised_transmitter.sv|
+!i113 1
+R6
+R7
+vsine_plue_noise_tb
+R0
+!s110 1687208901
+!i10b 1
+!s100 KajG3[@XG2JU22LRNDUQj2
+I0odjP48mmCcScWNi4Z^]j3
+R2
+Z23 !s105 Sine_Plus_Noise_sv_unit
+S1
+R3
+w1687139409
+Z24 8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Sine_Plus_Noise.sv
+Z25 FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Sine_Plus_Noise.sv
+L0 110
+R4
+r1
+!s85 0
+31
+!s108 1687208901.000000
+Z26 !s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Sine_Plus_Noise.sv|
+Z27 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/Sine_Plus_Noise.sv|
+!i113 1
+R6
+R7
+vSine_Plus_Noise
+R0
+R1
+!i10b 1
+!s100 fW9c?dM8X8;3YUNgloaI_3
+I1MPi_lYI[<:nU=b=<Gz?a3
+R2
+R23
+S1
+R3
+w1687364228
+R24
+R25
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R26
+R27
+!i113 1
+R6
+R7
+n@sine_@plus_@noise
+vtb_cosine_filter
+R0
+R8
+!i10b 1
+!s100 30A^cckkbWSID<`fSZAo70
+I1D7@[_iPmc^:UT;R7:Q283
+R2
+!s105 tb_cosine_filter_sv_unit
+S1
+R3
+w1687416753
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_cosine_filter.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_cosine_filter.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_cosine_filter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_cosine_filter.sv|
+!i113 1
+R6
+R7
+vtb_encoder
+R0
+R1
+!i10b 1
+!s100 A@H=E[GLBdYEREIYAOQQH2
+IG5m=]g8KR9h5G9hCQZomX1
+R2
+!s105 tb_encoder_sv_unit
+S1
+R3
+w1686702220
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encoder.sv|
+!i113 1
+R6
+R7
+vtb_encodingmodule
+R0
+R1
+!i10b 1
+!s100 FISQ45aHJRHK_`_oC=19E3
+IOMWa?Q8]2S98DI`K<0A]51
+R2
+!s105 tb_encodingmodule_sv_unit
+S1
+R3
+w1686849362
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encodingmodule.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encodingmodule.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encodingmodule.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_encodingmodule.sv|
+!i113 1
+R6
+R7
+vtb_Hamming_decoder
+R0
+R1
+!i10b 1
+!s100 ZgLUZ?4JORB1`[lZWUQOc1
+IB1g>[c6g9U9D9G9n9;MgF2
+R2
+!s105 tb_Hamming_decoder_sv_unit
+S1
+R3
+w1686845219
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_decoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_decoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_decoder.sv|
+!i113 1
+R6
+R7
+ntb_@hamming_decoder
+vtb_Hamming_encoder
+R0
+R1
+!i10b 1
+!s100 I2cnKolOAfUT[8m=SSSll2
+I@dM45U40ke8k2>P_J0FDz2
+R2
+!s105 tb_Hamming_encoder_sv_unit
+S1
+R3
+w1687124730
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_encoder.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_encoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_encoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_Hamming_encoder.sv|
+!i113 1
+R6
+R7
+ntb_@hamming_encoder
+vtb_QPSK
+R0
+!s110 1687230869
+!i10b 1
+!s100 eVbNUBZ^7[9fmc:Fn^C5M2
+I^7OJlYD=4FH;<NBkgG[ec2
+R2
+!s105 tb_QPSK_sv_unit
+S1
+R3
+w1687128655
+8C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_QPSK.sv
+FC:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_QPSK.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1687230869.000000
+!s107 C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_QPSK.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/weiyang/OneDrive/Desktop/FPGA_project/ELEC391S_project/tb_QPSK.sv|
+!i113 1
+R6
+R7
+ntb_@q@p@s@k
